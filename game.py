@@ -141,7 +141,7 @@ while running:
             enemyY[i] = random.randint(ENEMY_START_Y_MIN, ENEMY_START_Y_MAX)
 
         enemy(enemyX[i], enemyY[i], i)
-
+    
     # Bullet Movement
     if bulletY <= 0:
         bulletY = PLAYER_START_Y
